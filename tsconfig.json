@@ -1,0 +1,16 @@
+{
+    "extends": "@tsconfig/node18/tsconfig.json",
+    "compilerOptions": {
+        "outDir": "./build",
+        "target": "ESNext"
+    },
+    "typedocOptions": {
+        "entryPoints": [
+            "src/bot.ts"
+        ],
+        "out": "docs"
+    },
+    "include": [
+        "src/**/*"
+    ]
+}

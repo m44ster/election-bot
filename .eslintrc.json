@@ -1,0 +1,86 @@
+{
+    "extends": [
+        "eslint:recommended",
+        "plugin:@typescript-eslint/recommended",
+        "plugin:jsdoc/recommended"
+    ],
+    "parser": "@typescript-eslint/parser",
+    "plugins": [
+        "@typescript-eslint",
+        "jsdoc"
+    ],
+    "rules": {
+        "indent": [
+            "error",
+            "tab"
+        ],
+        "linebreak-style": [
+            "error",
+            "unix"
+        ],
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "semi": [
+            "error",
+            "never"
+        ],
+        "comma-dangle": [
+            "error",
+            "only-multiline"
+        ],
+        "switch-colon-spacing": [
+            "error",
+            {
+                "after": true,
+                "before": false
+            }
+        ],
+        "object-curly-spacing": [
+            "error",
+            "always"
+        ],
+        "space-before-function-paren": [
+            "error",
+            {
+                "anonymous": "always",
+                "named": "never",
+                "asyncArrow": "always"
+            }
+        ],
+        "space-before-blocks": "error",
+        "spaced-comment": "error",
+        "dot-notation": "warn",
+        "eqeqeq": "warn",
+        "multiline-comment-style": "error",
+        "no-confusing-arrow": "warn",
+        "no-var": "error",
+        "prefer-template": "warn",
+        "keyword-spacing": "error",
+        "block-spacing": "error",
+        "brace-style": "error",
+        "comma-spacing": "error",
+        "comma-style": "error",
+        "eol-last": "error",
+        "func-call-spacing": "error",
+        "key-spacing": "error",
+        "newline-per-chained-call": "error",
+        "no-extra-parens": "error",
+        "no-multi-spaces": "error",
+        "no-multiple-empty-lines": "error",
+        "no-trailing-spaces": "error",
+        "no-whitespace-before-property": "error",
+        "nonblock-statement-body-position": "error",
+        "operator-linebreak": "error",
+        "rest-spread-spacing": "error",
+        "space-infix-ops": "error",
+        "space-unary-ops": "error",
+        "template-curly-spacing": "error"
+    },
+    "ignorePatterns": [
+        "built",
+        "docs",
+        "node_modules"
+    ]
+}
